@@ -5,16 +5,15 @@ Welcome to my repository!
 
 ## Overview
 
-In this project I wanted to combine anomtion with comic art. 
-I believe that there is so much to explore in the mixing field of art and coding 
-For this project I used my own art to experiment with some nice animation I recently saw.
+In this project I wanted to combine animation, code and comic art. 
+ITs very much fun to explore and expirement with code and analogue art.
+For this project I used my own art to experiment with some beautifull animation I recently learned.
 
 ## Features
 
 - Feature 1: view comics while the user can touch and move
 - Feature 2: switch to a next page te continue reading 
-- 
-
+-
 ## Installation
 
 This is just html, css and javascript
@@ -26,9 +25,8 @@ https://www.youtube.com/watch?v=PkADl0HubMY
 https://camillemormal.com.
 
 
+Thanks for visiting!
 
-```bash
-# Example installation command
-npm install my-project
+#### Quote: “The truth is rarely pure and never simple.” – Oscar Wilde
 
 
