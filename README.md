@@ -21,7 +21,9 @@ This is just html, css and javascript
 The site can be viewed by our friend netlify: 
 
 
-# Inpirated by : 
+### Inpired & credits by : 
+https://www.youtube.com/watch?v=PkADl0HubMY
+https://camillemormal.com.
 
 
 
