@@ -1,0 +1,106 @@
+body{
+height: 100%vh;
+width: 100%vw;
+background: black;
+margin:0rem;
+overflow:hidden;
+
+}
+
+.image-container{
+margin: 0; /* Remove default body margin */
+height: 100vh; /* Ensure the body spans the full viewport height */
+display: flex;
+justify-content: center; /* Center the content horizontally */
+align-items: flex-start; /* Align content to the top */
+
+
+}
+
+.comicsLogo {
+    max-width: 400px; /* Set a maximum width for the image */
+    width: 100%; /* Make the image span the entire width of the page */
+    object-fit: cover; /* Maintain image aspect ratio while covering the container */
+}
+
+#image-track >.image {
+    width: 56vmin;
+    height: 60vmin;
+    object-fit: cover; 
+    object-position: center;
+    /* Adjust the shadow color, size, and spread */
+    box-sizing: border-box;
+    box-shadow: inset 0 0 10px rgba(235, 10, 10, 0.5);
+}
+
+
+
+
+#image-track {
+    display: flex;
+    flex: row;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(0%, -50%);
+ 
+
+
+    
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    /* background-color: #fff; */
+    /* box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2); */
+}
+
+.buttonNext {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 45px solid #999; /* Gray background color */
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin:5px;
+}
+.home{
+   
+    width: 30px; /* Adjust the width and height as needed */
+            height: 30px;
+            background-color: #3498db; /* Change the background color to your preference */
+            border-radius: 50%; /* Makes the element a circle */
+            margin:8px;
+}
+.buttonPrev {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 45px solid #999; /* Gray background color */
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin:5px;
+}
+.buttonPrev:hover{
+    background-color: #da12b8; /* Light gray on hover */ 
+}
+.buttonNext:hover {
+    background-color: #25f147; /* Light gray on hover */ 
+}
+.home:hover {
+    background-color: #f3f3f3; /* Light gray on hover */ 
+}
